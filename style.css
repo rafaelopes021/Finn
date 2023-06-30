@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rosto{
+    width: 60%;
+    height: 60vh;
+    background-color: #FFE1C9;
+    border-radius: 100%;
+}
+
+.olhoe{
+    width: 5vw;
+    position: relative;
+    bottom: 60px;
+    right: 25px;
+}
+
+.olhod{
+    width: 5vw;
+    position: relative;
+    bottom: 60px;
+    left: 25px;
+}
+
+form{
+    position: relative;
+    
+}
+
+input{
+    display: block;
+}
